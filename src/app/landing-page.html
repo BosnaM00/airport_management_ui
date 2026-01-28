@@ -1,0 +1,44 @@
+<!--
+  LandingPage template
+
+  This template defines the structure of the public landing page. It
+  includes a header with the application logo and links to the login
+  and registration pages, a hero section with a headline and call to
+  action, a benefits section summarizing key capabilities of the system,
+  and a footer. The structure follows common responsive web patterns.
+-->
+
+<header class="header">
+  <div class="logo">Airport Manager</div>
+  <nav class="nav-links">
+    <a routerLink="/login">Login</a>
+    <a routerLink="/register">Register</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Manage your flights effortlessly</h1>
+    <p>Book flights, manage routes and stay updated with real‑time status.</p>
+    <button routerLink="/login" class="cta-button">Book a Flight</button>
+  </section>
+
+  <section class="benefits">
+    <div class="benefit">
+      <h3>Book flights</h3>
+      <p>Search and book flights quickly and securely.</p>
+    </div>
+    <div class="benefit">
+      <h3>Manage routes</h3>
+      <p>Employees and administrators can create and edit routes.</p>
+    </div>
+    <div class="benefit">
+      <h3>Real‑time status</h3>
+      <p>Stay informed about flight schedules and status changes.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; 2026 Airport Manager</p>
+</footer>
